@@ -12,8 +12,10 @@ Menjadi
     http://www.domain.com/barang/elektronik/tv.html
 
 Kode htacces hasil generatenya:
-<pre><code>
+<pre>
 RewriteEngine On
 
 RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /toko/tampil.php?jenis=$1&kategori=$2&nama=$3 [L]
-</code></pre>
+</pre>
+
+<a href="http://ibacor.com/media/mod-rewrite-generator/">DOMO</a>
